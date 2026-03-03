@@ -28,7 +28,7 @@ var Computador = /** @class */ (function () {
     // Métodos - Funções ou comportamentos
     Computador.prototype.ligar = function () {
         console.log('Ligando o computador...');
-        console.log('Inicializando a placa mãe' + this.placaMae);
+        console.log('Inicializando a placa mãe ' + this.placaMae);
         console.log("Inicializando processador ".concat(this.processador.marcaProcessador, " ").concat(this.processador.frequenciaProcessador, " ").concat(this.processador.nucleosProcessador));
         console.log("Inicializando o dispositivo de armazenamento ".concat(this.quantidadeArmazenamento));
         console.log("Inicializando Mem\u00F3ria RAM ".concat(this.mostrarRAMTotal(), "GB"));
