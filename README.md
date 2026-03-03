@@ -29,5 +29,5 @@ _OBS_: se você tem o Typescript instalado globalmente na sua máquina, não é 
 2. Rode o comando:
 
 ```sh
-    node nomeDoSeuArquivo.ts
+    node nomeDoSeuArquivo.js
 ```
