@@ -1,1 +1,0 @@
-{"version":3,"file":"processador.js","sourceRoot":"","sources":["../processador.ts"],"names":[],"mappings":";;;AAAA,MAAa,WAAW;IACtB,gBAAgB,CAAQ;IACxB,kBAAkB,CAAQ;IAC1B,qBAAqB,CAAQ;IAE7B,YACE,gBAAwB,EACxB,kBAA0B,EAC1B,qBAA6B;QAE7B,IAAI,CAAC,gBAAgB,GAAG,gBAAgB,CAAA;QACxC,IAAI,CAAC,kBAAkB,GAAG,kBAAkB,CAAA;QAC5C,IAAI,CAAC,qBAAqB,GAAG,qBAAqB,CAAA;IACpD,CAAC;CACF;AAdD,kCAcC"}
