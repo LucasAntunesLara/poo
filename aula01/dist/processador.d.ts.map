@@ -1,0 +1,1 @@
+{"version":3,"file":"processador.d.ts","sourceRoot":"","sources":["../processador.ts"],"names":[],"mappings":"AAAA,qBAAa,WAAW;IACtB,gBAAgB,EAAE,MAAM,CAAA;IACxB,kBAAkB,EAAE,MAAM,CAAA;IAC1B,qBAAqB,EAAE,MAAM,CAAA;gBAG3B,gBAAgB,EAAE,MAAM,EACxB,kBAAkB,EAAE,MAAM,EAC1B,qBAAqB,EAAE,MAAM;CAMhC"}
