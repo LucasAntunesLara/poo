@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var cliente_1 = require("./cliente");
+var emprestimo_1 = require("./emprestimo");
+var funcionario_1 = require("./funcionario");
+var seguroDeVeiculo_1 = require("./seguroDeVeiculo");
+var cliente = new cliente_1.Cliente('Lucas');
+var funcionario = new funcionario_1.Funcionario('Marcelo', 10000);
+var emprestimo = new emprestimo_1.Emprestimo(cliente, funcionario, '16/03/2026', 10000, 2);
+var seguroVeiculo = new seguroDeVeiculo_1.SeguroDeVeiculo(cliente, funcionario, '16/03/2026', 'Fusca', 6000, 8000);

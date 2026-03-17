@@ -12,14 +12,14 @@ export class Cliente {
     this._nome = value
   }
 
-  constructor(id: number, nome: string) {
-    this._id = id
+  constructor(nome: string) {
+    this._id = Math.floor(Math.random() * (100 - 0) + 0)
     this._nome = nome
   }
 }
 
-const cliente1 = new Cliente(1, 'Nome 1')
-const cliente2 = new Cliente(2, 'Nome 2')
+const cliente1 = new Cliente('Nome 1')
+const cliente2 = new Cliente('Nome 2')
 
 console.log(cliente1)
 console.log(cliente2)

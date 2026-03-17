@@ -3,15 +3,35 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Funcionario = void 0;
 var Funcionario = /** @class */ (function () {
     function Funcionario(nome, salario) {
-        this.nome = nome;
-        this.salario = salario;
+        this._nome = nome;
+        this._salario = salario;
     }
+    Object.defineProperty(Funcionario.prototype, "nome", {
+        get: function () {
+            return this._nome;
+        },
+        set: function (value) {
+            this._nome = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Funcionario.prototype, "salario", {
+        get: function () {
+            return this._salario;
+        },
+        set: function (value) {
+            this._salario = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
     Funcionario.prototype.aumentarSalario = function (aumento) {
-        this.salario += aumento;
+        this._salario += aumento;
     };
     Funcionario.prototype.consultarDados = function () {
-        console.log("Nome: ".concat(this.nome));
-        console.log("Sal\u00E1rio: ".concat(this.salario));
+        console.log("Nome: ".concat(this._nome));
+        console.log("Sal\u00E1rio: ".concat(this._salario));
     };
     return Funcionario;
 }());
@@ -23,5 +43,3 @@ console.log('\n');
 funcionario1.aumentarSalario(100);
 funcionario2.aumentarSalario(500);
 funcionario2.consultarDados();
-// console.log(funcionario1)
-// console.log(funcionario2)

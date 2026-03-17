@@ -35,6 +35,7 @@ export class Conta {
   consultarSaldo() {
     console.log(`**Saldo atual da conta ${this._numero}: ${this._saldo} **`)
   }
+
   depositar(valor: number) {
     if (this._saldo + valor > this.limite) {
       console.log('Limite excedido. Por favor tente com uma quantia menor.')
@@ -44,14 +45,18 @@ export class Conta {
     this._saldo += valor
 
     console.log(`R$${valor} foi depositado na conta ${this._numero}`)
+
     this.consultarSaldo()
   }
 
   sacar(valor: number) {
-    this._saldo -= valor
+    if (this._saldo - valor > 0) {
+      this._saldo -= valor
 
-    console.log(`R$${valor} foi sacado da conta ${this._numero}`)
-    this.consultarSaldo()
+      console.log(`R$${valor} foi sacado da conta ${this._numero}`)
+
+      this.consultarSaldo()
+    }
   }
 
   imprimirExtrato() {
@@ -63,6 +68,7 @@ export class Conta {
 
   transferir(contaDestino: Conta, valor: number) {
     this.sacar(valor)
+
     contaDestino.depositar(valor)
   }
 }
