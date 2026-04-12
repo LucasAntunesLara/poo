@@ -28,16 +28,16 @@ export class CartaoDeCredito {
   }
 }
 
-let cartaoDeCredito = new CartaoDeCredito(
-  1234,
-  new Date(),
-  new Cliente(1, 'Cliente 1'),
-)
-let cartaoDeCredito1 = new CartaoDeCredito(
-  1235,
-  new Date(),
-  new Cliente(2, 'Cliente 2'),
-)
+// let cartaoDeCredito = new CartaoDeCredito(
+//   1234,
+//   new Date(),
+//   new Cliente(1, 'Cliente 1'),
+// )
+// let cartaoDeCredito1 = new CartaoDeCredito(
+//   1235,
+//   new Date(),
+//   new Cliente(2, 'Cliente 2'),
+// )
 
-console.log(cartaoDeCredito)
-console.log(cartaoDeCredito1)
+// console.log(cartaoDeCredito)
+// console.log(cartaoDeCredito1)

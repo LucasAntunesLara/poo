@@ -1,0 +1,1 @@
+{"version":3,"file":"Goleiro.d.ts","sourceRoot":"","sources":["../../trabalho_jogo/Goleiro.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AAEpC,qBAAa,OAAQ,SAAQ,OAAO;IAClC,OAAO,CAAC,QAAQ,CAAS;gBAEb,IAAI,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM;IAKxC,IAAI,OAAO,IAAI,MAAM,CAEpB;IAEM,QAAQ,IAAI,IAAI;IASvB,QAAQ,IAAI,IAAI;IAIhB,YAAY,IAAI,IAAI;CAGrB"}

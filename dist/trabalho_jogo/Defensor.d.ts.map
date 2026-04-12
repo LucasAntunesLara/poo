@@ -1,0 +1,1 @@
+{"version":3,"file":"Defensor.d.ts","sourceRoot":"","sources":["../../trabalho_jogo/Defensor.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AAEpC,qBAAa,QAAS,SAAQ,OAAO;IACnC,OAAO,CAAC,SAAS,CAAS;gBAEd,IAAI,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM;IAKxC,IAAI,QAAQ,IAAI,MAAM,CAErB;IAEM,QAAQ,IAAI,IAAI;IASvB,QAAQ,IAAI,IAAI;IAIhB,YAAY,IAAI,IAAI;CAGrB"}

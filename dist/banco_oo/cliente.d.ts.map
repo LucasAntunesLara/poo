@@ -1,0 +1,1 @@
+{"version":3,"file":"cliente.d.ts","sourceRoot":"","sources":["../../banco_oo/cliente.ts"],"names":[],"mappings":"AAAA,qBAAa,OAAO;IAClB,OAAO,CAAC,GAAG,CAAQ;IACnB,IAAW,EAAE,IAAI,MAAM,CAEtB;IAED,OAAO,CAAC,KAAK,CAAQ;IACrB,IAAW,IAAI,IAAI,MAAM,CAExB;IACD,IAAW,IAAI,CAAC,KAAK,EAAE,MAAM,EAE5B;gBAEW,IAAI,EAAE,MAAM;CAIzB"}
