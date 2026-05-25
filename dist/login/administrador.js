@@ -41,8 +41,6 @@ class Administrador extends usuario_1.Usuario {
             default:
                 console.log('❌ Nível de acesso não reconhecido.');
         }
-        // Log de auditoria (simulado)
-        // this.registrarTentativaRecuperacao(email)
     }
     gerarTokenSeguro() {
         const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

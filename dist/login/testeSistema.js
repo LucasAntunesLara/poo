@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// Arquivo: teste-sistema.ts
 const sistemaLogin_1 = require("./sistemaLogin");
-// Função principal para testar o sistema
 function testarSistema() {
     console.log('🚀 INICIANDO TESTES DO SISTEMA DE LOGIN');
     console.log('='.repeat(60));
@@ -50,6 +48,5 @@ function testarSistema() {
     console.log('✅ TESTES FINALIZADOS COM SUCESSO!');
     console.log('='.repeat(60));
 }
-// Executar os testes
 testarSistema();
 //# sourceMappingURL=testeSistema.js.map
